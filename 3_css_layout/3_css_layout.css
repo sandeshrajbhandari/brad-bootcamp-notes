@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+  background-color: #283593;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 45px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
