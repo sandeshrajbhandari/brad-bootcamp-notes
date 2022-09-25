@@ -138,4 +138,30 @@ nav a:hover {
   - has rounded corners, padding, blue color, no custom css code needed.
   - for larger button, btn-lg, or btn-small for small buttons.btn-outline-success, for bordered button
   - see bootstrap docs for button for diff buttons.
--
+
+### Columns
+
+- `container` class to auto center and set a wrapper
+- div.row and two col divs inside it. both talk half space
+- feature1, feature2, lorem ipsum descriptions
+- using col-8 and col-4 for different widths.of two sectios.
+- margin classes - in div row, add mt-4 for margin top, mx-4 and my-4.
+
+### Responsive Classes
+
+- col-md-6 for columns, md-medium screens.
+- by default smallest, one column, not mentioned.
+- col-lg-3, 4 columns, 12cols/3=4.
+- find classnames from docs, Layout>Grid.
+
+### Bootstrap JS
+
+- not just buttons and clases
+- **Bootstrap Components** - copy paste diff components, but it requires javascript. so import bootstrap js along with boostrap css. add link code at end of html code.
+
+### Should you use bootsrap
+
+- for larger projects, require custom mods
+- for smaller, with little custom designs, can use bootstrap.
+- use boostrap and not worry about css while learning other concepts like programming, backend, etc.
+- hiring bootcamp grads, but can't implement custom designs not available in boostrap templates/components.
