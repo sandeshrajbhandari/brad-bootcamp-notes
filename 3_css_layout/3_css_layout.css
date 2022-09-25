@@ -15,10 +15,13 @@ body {
 .nav {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
 }
 
 .nav li {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 .nav a {
   color: #fff;
